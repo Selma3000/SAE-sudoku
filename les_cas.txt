@@ -1,0 +1,13 @@
+formule_init= [[1, 4, -5], 
+[-1, -5], 
+[2, -3, 5], 
+[2, -4],
+[2, 4, 5],
+[-1, -2], 
+[-1, 2, -3], 
+[-2, 4, -5], 
+[1, -2]] 
+list_var= [True, True, False, True, None] 
+list_chgmts= [[1, True]]
+cor_resol=(False, [])
+test('essai1_resol_parcours_arbre : ',resol_parcours_arbre(formule_init,list_var,list_chgmts),cor_resol)
